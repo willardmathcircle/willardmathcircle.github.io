@@ -1,0 +1,262 @@
+/* variables */
+$general_font: Oswald;
+$general_font2: Helvetica;
+$general_color: #ffffff;
+
+
+/* inheritance class */
+%text_styling
+{
+  /* scss nesting */
+  font:
+  {
+    family: $general_font2;
+    weight: lighter;
+  }
+  padding: 5px;
+}
+
+/* inheritance class */
+%heading_styling
+{
+  /* scss nesting */
+  font:
+  {
+    family: $general_font;
+    weight: lighter;
+  }
+  padding: 5px;
+}
+
+body
+{
+  background-color: #d9ebfc;
+}
+
+h1.title, .hometitle
+{
+  @extend %heading_styling;
+  background-color: #315981;
+  /*text-styling*/
+  color: #000000;
+  text-align: center;
+  font-size: 80px;
+  /*margins*/
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.hometitle
+{
+  margin-bottom: 0px;
+}
+
+.subtitle
+{
+  @extend %heading_styling;
+  /*text-styling*/
+  color: #000000;
+  text-align: center;
+  font-size: 60px;
+  /*margins*/
+  margin: 10px;
+}
+
+#lecture_links
+{
+  @extend %text_styling;
+  /*styling for links*/
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.nav_link
+{
+  @extend %text_styling;
+  /*styling for links*/
+  vertical-align: middle;
+  color: #white;
+  font-size: 30px;
+}
+
+.large_td
+{
+  @extend %heading_styling;
+  width:55%;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+a
+{
+  color:white;
+}
+
+td
+{
+  @extend %heading_styling;
+  padding:17px;
+}
+
+#lecture_links {margin: 20px;}
+
+.table
+{
+  /*styling for navigation bar*/
+  background-color: #1b3a59;
+  height: 50px;
+  border: 5px solid #1b3a59;
+  border-collapse: collapse;
+  width:100%;
+  margin:0px;
+}
+
+#emma_info_button
+{
+  @extend %heading_styling;
+  font-size:30px;
+  margin:10px;
+  background-color: #000000;
+  color:#FFFFFF;
+  width:100%;
+}
+
+.data-content
+{
+  font-size:30px;
+}
+
+.pheonix
+{
+  border: 5px solid black;
+  margin:50px;
+}
+
+.info
+{
+  @extend %text_styling;
+  color: $general_color;
+  margin:10px;
+  border: 5px solid #FFFFFF;
+  font-size:33px;
+}
+
+.blackboard-picture
+{
+  height: 200px;
+  overflow: hidden;
+}
+
+.all_about_us_info
+{
+  @extend %text_styling;
+  /*text-styling*/
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  /*margins*/
+  margin: 10px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.about_emma
+{
+  @extend %text_styling;
+  /*text-styling*/
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  /*margins*/
+  margin: 10px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.what_is_it_info
+{
+  @extend %text_styling;
+  /*text-styling*/
+  color: #000000;
+  text-align: left;
+  font-size: 25px;
+  /*margins*/
+  margin: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.what_is_it_subtitle
+{
+  @extend %heading_styling;
+  /*text-styling*/
+  color: #000000;
+  text-align: left;
+  font-size: 60px;
+  /*margins*/
+  margin: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.colorfulmath
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.col.bg
+{
+  margin: 0px;
+  padding:0px;
+}
+
+.second_row_info
+{
+   border: 2px solid black;
+   background-image: url(https://images.theconversation.com/files/139426/original/image-20160927-14593-1rf92dt.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C5000%2C2425&q=45&auto=format&w=1356&h=668&fit=crop);
+}
+
+.second_row_info_words
+{
+  margin: 30px;
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+.second_row_info_title
+{
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.white{color: white;}
+
+.smaller{font-size: 40px;}
+
+.mySlides {display:none;}
+
+.less_margin{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.w3-display-container{margin-top: 30px;}
+
+.emmapic {
+  border-radius:50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.the_three_ws
+{
+  @extend %text_styling;
+  font-size:25px;
+  text-align:center;
+  color:black;
+}
