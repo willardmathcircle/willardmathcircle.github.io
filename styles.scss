@@ -28,10 +28,6 @@ $general_color: #ffffff;
   padding: 5px;
 }
 
-@media screen and (max-width: 800px) {
-  body{background-color: #ffffff;}
-}
-
 body
 {
   background-color: #d9ebfc;
@@ -263,4 +259,8 @@ td
   font-size:25px;
   text-align:center;
   color:black;
+}
+
+@media screen and (max-width: 800px) {
+  body{background-color: #ffffff;}
 }
