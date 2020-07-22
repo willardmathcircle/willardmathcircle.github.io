@@ -171,6 +171,11 @@ td
   margin: 10px;
   margin-right: 25%;
   margin-left: 25%;
+  @media screen and (max-width:760px)
+  {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
 }
 
 .what_is_it_info
@@ -184,6 +189,11 @@ td
   margin: 10px;
   margin-right: 20%;
   margin-left: 20%;
+  @media screen and (max-width:760px)
+  {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
 }
 
 .what_is_it_subtitle
@@ -197,6 +207,11 @@ td
   margin: 10px;
   margin-right: 20%;
   margin-left: 20%;
+  @media screen and (max-width:760px)
+  {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
 }
 
 .colorfulmath
