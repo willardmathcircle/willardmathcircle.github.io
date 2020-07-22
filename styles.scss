@@ -28,6 +28,13 @@ $general_color: #ffffff;
   padding: 5px;
 }
 
+@media screen and (max-width: 800px) {
+  .all_about_us_info, .about_emma, .what_is_it_info {
+    margin-left:2%;
+    margin-right:2%
+  }
+}
+
 body
 {
   background-color: #d9ebfc;
